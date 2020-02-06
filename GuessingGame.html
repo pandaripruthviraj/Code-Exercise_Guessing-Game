@@ -1,0 +1,26 @@
+<html> 
+<head> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="guessingGame.js"></script>
+    <meta charset="utf-8"> 
+    <title>Number Guessing Game</title> 
+  
+    <style> 
+        
+    </style> 
+</head> 
+  
+<body> 
+<div class="form"> 
+	<p>I am thinking a number from 1 to 10.</p> 
+  	<p>You must guess what it is in three tries.</p> 
+    <label for="guessField">Enter a guess: </label> 
+    <input type = "text" id = "guessField" class = "guessField"> 
+    <input type = "submit" value = "Guess it"  class = "guessSubmit" id = "submitguess" onclick="guess()"> 
+</div> 
+<div class="result" style="display: none;">
+</div>
+
+</body>
+</html>

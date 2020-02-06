@@ -1,0 +1,29 @@
+html { 
+    font-family: sans-serif; 
+    } 
+    body { 
+    width: 50%; 
+    max-width: 800px; 
+    min-width: 480px; 
+    margin: 0 auto; 
+    } 
+	.form{
+		margin-top:20px;
+		background:antiquewhite;
+		padding:20px;
+		border-radius:20px;
+		font-size:18px;
+		font-family: sans-serif; 
+		text-align:center;
+		padding-top:20px;
+		padding-bottom:33px;
+	}
+	.result{
+	background:#76CEA1;
+	padding:1px;
+	border-radius:20px;
+	margin-top:20px;
+	text-align:center;
+	font-size:18px;
+	font-family:sans-serif;
+	}
